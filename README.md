@@ -83,3 +83,9 @@ if you use O1O in your research, please cite our work!
   pages     = {614-629}
 }
 ```
+
+### 🙌 acknowledgements
+O1O builds on previous work [Deformable-DETR](https://github.com/fundamentalvision/Deformable-DETR), [DN-DETR](https://github.com/IDEA-Research/DN-DETR), [DAB-DETR](https://github.com/IDEA-Research/DAB-DETR), [OW-DETR](https://github.com/akshitac8/OW-DETR), [PROB](https://github.com/orrzohar/PROB/) and [GOOD](https://github.com/autonomousvision/good).  
+if you found O1O useful, please consider citing these works as well!
+
+
