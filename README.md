@@ -26,6 +26,20 @@ pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorc
 pip install -r requirements.txt 
 ```
 
+download the feature extraction backbone
+```bash
+wget https://dl.fbaipublicfiles.com/dino/dino_resnet50_pretrain/dino_resnet50_pretrain.pth
+```
+
+compile CUDA operators
+```bash
+cd ./models/ops
+sh ./make.sh
+# unit test (might fail after a point depending on your gpu memory)
+python test.py
+```
+
+
 ### 🗂️ dataset setup  
 
 1. download coco 2017, pascal voc 2007 and 2012 datasets with annotations. 
