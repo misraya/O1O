@@ -10,11 +10,15 @@
 [[`website`](https://kuis-ai.github.io/O1O/)]
 [[`slides`](https://drive.google.com/file/d/1ja7PgQRmTCx6GwYnMEwU6gz_iYZZBUhd/view?usp=sharing)]
 
-
 ### ✨ highlights 
 
 - O1O was selected for an **oral presentation** at [ACCV2024](https://accv2024.org/) and shortlisted as a [best paper award finalist](https://accv2024.org/awards/)! 🎉
 
+<div align="center">
+  <img src="assets/method.png" width="100%" height="100%"/>
+</div><br/>
+
+📝 **TL;DR**: O1O shapes the representation space by encouraging queries of similar classes to group together, allowing us to identify odd-one-out queries as unknown objects.
 
 
 ### ⚙️ environment setup
