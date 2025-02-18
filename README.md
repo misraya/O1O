@@ -26,7 +26,7 @@ pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorc
 pip install -r requirements.txt 
 ```
 
-### 🗂️ dataset preparation  
+### 🗂️ dataset setup  
 
 1. download coco 2017, pascal voc 2007 and 2012 datasets with annotations. 
 ```bash
