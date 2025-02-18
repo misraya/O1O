@@ -67,9 +67,16 @@ wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar
 2. unzip and untar downloaded files. 
 3. run `coco2voc.py` to convert coco json annotations to xml format.
 4. move all annotations under `OWOD/Annotations` and all images under `OWOD/JPEGImages`.
-   
 
-### 📌 <a name="cite"></a> cite O1O
+### 📊 evaluation
+
+_(coming soon)_
+
+### 📈  training from scratch
+
+_(coming soon)_
+
+### 📌 <a name="cite"></a> citation
 
 if you use O1O in your research, please cite our work! 
 
