@@ -12,13 +12,19 @@
 
 ### ✨ highlights 
 
-- O1O was selected for an **oral presentation** at [ACCV2024](https://accv2024.org/) and shortlisted as a [best paper award finalist](https://accv2024.org/awards/)! 🎉
+- 🚀 leveraging DETR extensions for faster convergence
+- 🔍 first-time exploration of geometric cues for OWOD
+- 💡 identifying performance loss in presence of pseudo-labels
+- 🧠 shaping query representations with a novel superclass prior
+- 👀 detecting unknowns the way humans identify the odd-one-out
+- 🏆 achieving state-of-the-art performance on incremental OWOD benchmarks
+- 🎉 O1O was selected for an **oral presentation** at [ACCV2024](https://accv2024.org/) and shortlisted as a [best paper award finalist](https://accv2024.org/awards/)! 
+
 
 <div align="center">
-  <img src="assets/method.png" width="100%" height="100%"/>
+  <img src="assets/method.png" width="100%" height="90%"/>
 </div><br/>
 
-📝 **TL;DR**: O1O shapes the representation space by encouraging queries of similar classes to group together, allowing us to identify odd-one-out queries as unknown objects.
 
 
 ### ⚙️ environment setup
