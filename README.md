@@ -8,6 +8,8 @@
 [[`bibtex`](#cite)]
 [[`arxiv`](https://arxiv.org/abs/2410.07514)]
 [[`website`](https://kuis-ai.github.io/O1O/)]
+[[`slides`](https://drive.google.com/file/d/1ja7PgQRmTCx6GwYnMEwU6gz_iYZZBUhd/view?usp=sharing)]
+
 
 ### ✨ highlights 
 
@@ -52,9 +54,9 @@ wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar
 wget http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar 
 wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar
 ```
-
-2. run `coco2voc.py` to convert coco json annotations to xml format.
-3. move all annotations under `OWOD/Annotations` and all images under `OWOD/JPEGImages`.
+2. unzip and untar downloaded files. 
+3. run `coco2voc.py` to convert coco json annotations to xml format.
+4. move all annotations under `OWOD/Annotations` and all images under `OWOD/JPEGImages`.
    
 
 ### 📌 <a name="cite"></a> cite O1O
