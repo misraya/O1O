@@ -1,0 +1,10 @@
+logs/*
+*.pyc
+models/ops/build/*
+models/ops/dist/*
+models/ops/*egg*
+models/dino*
+exps/*
+runs/*
+wandb/*
+.ipynb_checkpoints/*

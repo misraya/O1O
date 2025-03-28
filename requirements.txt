@@ -1,0 +1,14 @@
+beautifulsoup4
+pycocotools
+tqdm
+cython
+scipy
+timm==0.3.2
+Pillow
+blobfile
+mypy
+numpy
+pytest
+requests
+einops
+tensorboardX
