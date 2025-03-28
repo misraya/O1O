@@ -38,7 +38,7 @@ pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorc
 pip install -r requirements.txt 
 ```
 
-download the feature extraction backbone
+download the feature extraction backbone and place it under `models/`
 ```bash
 wget https://dl.fbaipublicfiles.com/dino/dino_resnet50_pretrain/dino_resnet50_pretrain.pth
 ```
@@ -66,15 +66,29 @@ wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar
 ```
 2. unzip and untar downloaded files. 
 3. run `coco2voc.py` to convert coco json annotations to xml format.
-4. move all annotations under `OWOD/Annotations` and all images under `OWOD/JPEGImages`.
+4. move all annotations under `data/OWOD/Annotations` and all images under `data/OWOD/JPEGImages`.
+5. if you want to train from scratch, download and unzip our pseudo-boxes from [Google Drive](https://drive.google.com/drive/folders/1ruukm_AcvpBT0aaat7TDXzuKZTIxZkn6?usp=share_link) or generate them yourself using [GOOD's codebase](https://github.com/autonomousvision/good), and put them under `data/OWOD/pseudo-boxes`.
 
 ### 📊 evaluation
 
-_(coming soon)_
+first download the pretrained models from [Google Drive](https://drive.google.com/drive/folders/15V5wrL4UwqAppbk111UQxg0l18y5i3qu?usp=share_link) and place them under `exps/o1o_pretrained_mowod/` and `exps/o1o_pretrained_sowod/`.
+
+then you can run the following commands to evaluate all checkpoints on 4 GPUs, or use the separate evaluation scripts under `configs/pretrained/`
+```
+./configs/pretrained/o1o_mowod_eval_all.sh
+./configs/pretrained/o1o_sowod_eval_all.sh
+```
 
 ### 📈  training from scratch
 
-_(coming soon)_
+to train from scratch, first ensure you have followed all the steps in the [dataset setup](#dataset-setup).
+
+then you can run the following to execute all tasks in order on 4 GPUs, or use the separate task scripts found under `configs/from-scratch/`
+```
+./configs/from-scratch/o1o_mowod_all.sh
+./configs/from-scratch/o1o_sowod_all.sh
+```
+
 
 ### 📌 <a name="cite"></a> citation
 
